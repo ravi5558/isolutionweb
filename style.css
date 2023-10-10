@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    color: black;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    color:#f7b01a ;
+    border-bottom: 2px solid #f7b01a;
+}
+/* .a1{
+    text-align: center;
+    width: 50px;
+    background-color: #dd2f28;
+    color: white;
+    font-size: 30px;
+} */
+.part1 .a1{
+    background-color: #dd2f28;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.part1 .a2{
+    background-color: #f7b01a;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.part1 .a3{
+    background-color: #00a8c3;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+}
+.part1 .a4{
+    background-color: #0291c9;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.a{
+    width: 200px;
+    height: 200px;
+}
+h5{
+    color: #9193a4;
+}
+.card-body{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    border-radius: 10px;
+}
+.sec1 h4{
+    color: gainsboro;
+}
+.sec1 div{
+    background-color: #f7b01a;
+    width: 35px;
+    height: 3px;
+}
+.sec1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sec1 a:hover{
+    color: #f7b01a;
+}
+@media only screen and (max-width: 320px) {
+    .navbar-brand img {
+      height: 50px;
+      width: 150px;
+    }
+  }
+
+
+
